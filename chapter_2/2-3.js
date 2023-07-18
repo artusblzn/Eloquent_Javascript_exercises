@@ -23,7 +23,6 @@ of the given width and height.
 let toPrint = '';
 let bindingSize = 8;
 
-
 for (let i = 0; i < bindingSize; i++) {
     if (i % 2 == 0) toPrint = ' #'.repeat(bindingSize / 2);
     else toPrint = '# '.repeat(bindingSize / 2);
